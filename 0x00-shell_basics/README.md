@@ -1,1 +1,1 @@
-Create a script that creates a directory named
+Delete the file betty
