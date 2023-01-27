@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
-# script that displays To infinity and beyond indefinitely.
-# shellcheck disable=SC2009
-
- kill -SIGKILL "$(pgrep --full 7-highlander)"
+# kills the process 7-highlander
+pkill -9 -f 7-highlander
